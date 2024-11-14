@@ -2,71 +2,51 @@
 ### Junior Web Developer
 
 #### **Contacts:** 
--  Phone: +48 733 508 511
+-  Phone: +998 99 354 00 40
 - E-mail: alimahsim@gmail.com
-- GitHub: https://github.com/nadiia0811
+- GitHub: https://github.com/alimahsim
 #### **About me:**
-I am a junior web developer with a solid foundation in JavaScript, HTML, CSS, and React. My proactive approach to learning and my experience in building responsive and visually appealing web applications have equipped me with the skills to tackle complex challenges effectively. I thrive in collaborative environments, where I can contribute to team success and continuously enhance my skills. My passion for web development drives me to stay updated with the latest trends, making me a valuable addition to your team.
+I am a junior web developer. I've been learning JavaScript, HTML, CSS, and React. 
+My purpose is to create well organized and designed web site which inspires lots of people.
 #### **Tech Skills:**
 ##### Frontend:
-- JavaScript (ES6+) 
-- React + TypeScript 
+- JavaScript (ES6+)
 - CSS
 - HTML
-- Tailwind 
-- Framer Motion, Shadcn, Lucide and other libraries
-##### **Backend:** 
-- NodeJS, Express
-##### **Data bases:**
-- MongoDB, MySQL
 #### **Soft Skills:**
-- I can work effectively both independently and collaboratively in a team environment
 - Time management
 - Continuous learning
 #### **Code example:**
-```sh
-export const useGetMyUser = () => {
-  const { getAccessTokenSilently } = useAuth0();
-  const getMyUserRequest = async (): Promise<User> => {
-  const accessToken = await getAccessTokenSilently();
+```
+Finding the same items of two Arrays
 
-  const response = await fetch(`${API_BASE_URL}/api/my/user`, {
-    method: "GET",
-    headers: {
-        Authorization: `Bearer ${accessToken}`,
-        "Content-Type": "application/json"
-    },   
-  });
+const nums1 = [5, 8, 9, 10, 41, 52, 7];
+const nums2 = [11, 8, 19, 101, 41, 54, 7, 18, 35];
 
-  if(!response.ok) {
-    throw new Error("Failed get user info");
+function finderSameItems(p1, p2) {
+  let counter = 0;
+  for (let i = 0; i < p1.length; i++) {
+    for (let j = 0; j < p2.length; j++) {
+      if (p1[i] === p2[j]) {
+        console.log(p1[i]); // or p2[j]
+        counter++;
+      }
+    }
   }
-
-  return response.json();
-  };
-
-  const { data: currentUser, isPending, error} = useQuery({
-        queryKey: ["fetchCurrentUser"], 
-        queryFn: getMyUserRequest});
-  if(error) {
-    toast.error(error.toString());
-  }
-
-  return { currentUser, isPending };
+  return counter;
 }
 ```
-##### **Code explanation:**
-This is a custom React hook designed to retrieve the current user's information. It uses the fetch API to perform a 'GET' request to the backend, which in turn queries MongoDB for the relevant user data. The hook returns an object containing two properties: currentUser, which holds the current user's data, and isLoading, a boolean value that indicates whether the data is still loading. This hook helps streamline data fetching in my application, making it more organized and reusable across different components.
-You can see how the application works by visiting: [https://mern-food-ordering-app-frontend-c7fh.onrender.com](https://mern-food-ordering-app-frontend-c7fh.onrender.com)
 #### **Education and Experience:**
-- Course: Programming for Beginners (Brain Academy, Zaporizhzhia)
-- High School of Information Technologies and Management (Rzeszów, Poland)
-- W3School
-- Free Code Camp courses
-- Practical JavaScript - Advanced Level (Udemy)
-- JavaScript + React: Full Course from Zero to Advanced (Ivan Petrichenko, Udemy)
+- Course: Front-end full video course (by Fullfill Academy. Tashkent. Uzbekistan)
+- Course: Front-end full course (in Open Web Academy. Karshi. Uzbekistan)
+- Course: Front-end full course (Udacity)
+- University: Power Engineering direction (at Karshi Engineering Economics Institute. Karshi. Uzbekistan)
+- College: Computer science and communication technologies direction (Jenov Industrial and professional colledge. Uzbekistan)
 
 In my portfolio I have projects: 
-- E-commerce: An application that allows users to register, log in, add and delete products from their cart, retrieve products from the database upon logging in, and sort products by price.
-- Food Ordering App: A full-stack application featuring user authentication with Auth0, user profile management, restaurant and menu creation, order management, and payment processing via Stripe.
-#### **English Level:** B1
+- I created a few simple projects like "To Do List", "Pop-up" with JS and Web page with HTML and CSS which does not fully work and deployed via netlify.com 
+[Figma project](https://ansor-med-by-ali.netlify.app/)
+[To Do List](https://todolistbyjs.netlify.app/)
+[Pop-up](https://modal-mirror.netlify.app/)
+
+#### **English Level:** B2
