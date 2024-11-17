@@ -1,38 +1,143 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* background-color: #0c0c0c; */
 }
 
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h4 {
+  padding: 1rem 0;
+}
+pre {
+  padding: 1rem;
+  /* background-color: rgb(118, 101, 101); */
+  background-color: #aaa6a6;
+  color: #fff;
+  margin: 0.5rem 0 0.5rem 0;
+}
 .wrapper {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto;
-    border: 2px solid black;
+  width: 56.25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  border: solid 0.2rem #f00;
 }
 
 #head_container {
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: solid 0.2rem red;
-    color: red;
-    background: #000;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 0.2rem red;
+  color: red;
+  background: #000;
 }
 
 .info_contacts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info_contacts ul {
-    display: flex;
-    list-style-type: none;
-    gap: 2rem;
-  }
-  .info_contacts a {
-    color: red;
-  }     styles
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.info_contacts a {
+  color: red;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 2px red;
+  padding-bottom: 1rem;
+}
+
+.contacts h2 {
+  text-align: center;
+}
+
+.my-contact {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-contact p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.my-contact h5 {
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #565252;
+}
+#about h2{
+  margin-left: 17rem;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+}
+
+.info img {
+  height: 20rem;
+}
+
+.projects {
+  padding: 1rem 0;
+}
+.about-content h2 {
+  margin-bottom: 20px;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.footer-div p {
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #aaa6a6;
+  height: 100px;
+  border-top: solid 2px #f00;
+}
+
+i {
+  font-size: 40px;
+}
+
+.rsschool {
+  width: 70px;
+}
