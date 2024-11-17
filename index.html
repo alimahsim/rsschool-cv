@@ -9,7 +9,7 @@
   <body>
     <div id="wrapper">
       <header id="head_container">
-        <div class="logo"><h1>NAXCA</h1></div>
+        <div class="logo"><h1>ACA</h1></div>
         <div class="info_contacts">
           <nav>
             <ul>
@@ -22,18 +22,94 @@
       </header>
       <main id="main_container">
         <div class="about_me_section">
-            <div class="about_content">
-                <h1 id="about">About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores, distinctio tenetur deleniti qui unde neque enim nisi eos reiciendis voluptate assumenda quasi maxime quod illo, perferendis exercitationem harum libero ut accusantium illum. Aut dolor amet est officia tempora necessitatibus dignissimos nam cum ipsum voluptatum, obcaecati maiores error? Officiis, eaque! Modi delectus quae provident? Suscipit consequuntur sequi sit tempore delectus odio reiciendis sint ab, corporis aspernatur animi tempora vero numquam blanditiis sunt expedita excepturi quo fugiat, nisi, deserunt totam? Doloribus repellendus voluptas doloremque, praesentium ad expedita, debitis laboriosam fugit ratione quae ducimus temporibus, ullam veritatis natus iusto corrupti! Eius ea labore beatae, sint aliquam sapiente id hic perspiciatis dolorem ipsam iusto qui, cupiditate sed corrupti laboriosam sequi! Odio, doloribus dolore quaerat delectus magnam in sequi aperiam. Nostrum obcaecati quam fugit, ad officia voluptatum tempora illum recusandae consectetur, at repudiandae adipisci in, nisi deserunt eaque vitae? Optio rerum mollitia ab quod, labore deserunt sed inventore sequi, doloribus nesciunt facere expedita blanditiis doloremque dicta nostrum nemo ut est. Deserunt minima corrupti quidem non, quas earum incidunt eum sed natus libero dolorum quisquam quod molestias iure similique tenetur hic magnam? Itaque dolorem facere soluta nam dolor, quasi qui debitis maiores minus eius atque!</p>
+          <div class="about_content">
+            <h1 id="about">About Me</h1>
+            <p>
+              I am a junior web developer. I've been learning JavaScript, HTML,
+              CSS, and React. I purpose is to create a web site that be useful
+              for people
+            </p>
+            <h2>Tech Skills:</h2>
+            <h3>Frontend:</h3>
+            - JavaScript (ES6+) - CSS - HTML
+            <h3>Soft Skills:</h3>
+            - Time management - Continuous learning
+            <h3>Code example:</h3>
+            <h5>Converting numbers into toArray</h5>
+
+            <pre>
+                Converting numbers into toArray
+
+                let nums = 445;
+
+                function toArray(num) {
+                let r = num.toString().split("").map(Number);
+                return r;
+                }
+                console.log(toArray(nums)); // [4, 4,5]
+            </pre>
+            <div class="edu">
+              <h4>Education and Experience:</h4>
+              <ul>
+                <li>Course: Front-end video course(Fullfill, Uzbekistan)</li>
+                <li>Course:Front-end (OWA, Uzbekistan)</li>
+                <li>Course: Front-end (Udacity)</li>
+                <li>
+                  Univercity: Karshi Engineering Economics Institute
+                  (Uzbekistan)
+                </li>
+                <li>
+                  College: Computer Science and Communication teqnologies
+                  (Uzbekistan)
+                </li>
+              </ul>
             </div>
-          <img src="img/my_photo.jpg" alt="My photo" width="500" />
+          </div>
+          <img src="img/my_photo.jpg" alt="My photo" height="600" />
         </div>
+        
+      <section id="projects_container">
         <div id="projects">
-          <h3>Projects</h3>
+          <div>
+            <h3>Projects</h3>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a href="https://ansor-med-by-ali.netlify.app/"
+                  >FIgma: "Ansor Med"</a
+                >
+              </li>
+              <li>
+                <a href="(https://todolistbyjs.netlify.app/)">To Do List</a>
+              </li>
+              <li><a href="https://modal-mirror.netlify.app/">Pop-up</a></li>
+            </ul>
+          </div>
         </div>
+      </section>
+      <section>
         <div id="contact">
           <h3>Contacts</h3>
+          <ul>
+            <li>
+              <img src="img/phone-call-icon.svg" alt="" /><a href="#"
+                >+998 99 354 0040</a
+              >
+            </li>
+            <li>
+              <a href="alimahsim@gmail.com"
+                ><img src="img/gmail-icon.svg" alt="Gmail icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/alimahsim"
+                ><img src="img/github-icon.svg" alt="GitHub Icon"
+              /></a>
+            </li>
+          </ul>
         </div>
+      </section>
       </main>
       <footer id="footer_container">
         <img src="img/rs-school-logo.svg" alt="RSS logo" width="100" />
