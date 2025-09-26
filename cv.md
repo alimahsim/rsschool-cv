@@ -10,7 +10,7 @@
 
 #### About me:
 
-I am a junior web developer. I've been learning JavaScript, HTML, CSS, and React. I purpose is to create a web site that be useful for people
+I am a junior web developer. I've been learning JavaScript, HTML, CSS, and React. I purpose is to create a website that be useful for people
 
 #### Tech Skills:
 
@@ -24,6 +24,7 @@ I am a junior web developer. I've been learning JavaScript, HTML, CSS, and React
 
 - Time management
 - Continuous learning
+- Communication
 
 #### Code example:
 
@@ -46,7 +47,7 @@ console.log(toArray(nums)); // [4, 4, 5]
 - Karshi Engineering Economics Institute (Uzbekistan)
 - College: Computer Science and Communication teqnologies (Uzbekistan)
 
-I have some works deployed on "netlify.com" which's done by using HTML, CSS and JS:
+I have deployed some works on netlify.com which is done by using HTML, CSS and JS:
 
 - [Figma](https://ansor-med-by-ali.netlify.app/)
 - [To do list](https://todolistbyjs.netlify.app/)
