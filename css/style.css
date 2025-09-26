@@ -1,11 +1,12 @@
-* {
-  margin: 0;
+ul,
+li,
+h2,
+h4,
+p,
+pre {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-li {
   list-style: none;
 }
 a {
@@ -27,6 +28,7 @@ pre {
   margin: 3rem auto;
   border: solid 0.2rem #f00;
   background-image: linear-gradient(to bottom, black, white, red);
+  font-family: sans-serif;
 }
 
 #head_container {
@@ -82,8 +84,7 @@ pre {
 main {
   display: flex;
   flex-direction: column;
-  padding: 30px;
-  /* background-color: #b55757; */
+  padding: 2rem;
 }
 
 .about-content {
