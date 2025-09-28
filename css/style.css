@@ -107,6 +107,9 @@ main {
 .footer-div a {
   color: #000;
 }
+.footer-div a img{
+  height: 30px;
+}
 footer {
   display: flex;
   align-items: center;
