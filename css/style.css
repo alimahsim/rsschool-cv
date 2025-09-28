@@ -17,9 +17,8 @@ h4 {
   padding: 1rem 0;
 }
 pre {
-  padding: 1rem;
   color: #4e889a;
-  margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 1rem 0 0;
 }
 .wrapper {
   width: 56.25rem;
@@ -30,16 +29,13 @@ pre {
   background-image: linear-gradient(to bottom, black, white, red);
   font-family: sans-serif;
 }
-
 #head_container {
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   border-bottom: solid 0.2rem rgb(249, 247, 247);
   color: rgb(249, 246, 246);
-  /* background: #2b2a2a; */
 }
-
 .info_contacts {
   display: flex;
   justify-content: center;
@@ -51,19 +47,16 @@ pre {
   list-style-type: none;
   gap: 2rem;
 }
-
 .contacts {
   display: flex;
   flex-direction: column;
   border-bottom: solid 2px red;
   padding-bottom: 1rem;
 }
-
 .contacts h2 {
   text-align: center;
   color: #fff;
 }
-
 .my-contact {
   display: flex;
   padding-left: 200px;
@@ -72,21 +65,17 @@ pre {
   align-items: center;
   color: #fff;
 }
-
 .my-contact p {
   font-weight: 600;
 }
-
 .my-contact h5 {
   font-size: 18px;
 }
-
 main {
   display: flex;
   flex-direction: column;
   padding: 2rem;
 }
-
 .about-content {
   display: flex;
   flex-direction: column;
@@ -94,7 +83,7 @@ main {
 }
 .info {
   display: flex;
-  gap: 30px;
+  gap: 1.5rem;
 }
 .info img {
   height: 15rem;
@@ -125,11 +114,9 @@ footer {
   height: 100px;
   border-top: solid 3px rgb(255, 255, 255);
 }
-
 i {
   font-size: 40px;
 }
-
 .rsschool {
   width: 70px;
 }
