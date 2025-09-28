@@ -85,6 +85,9 @@ main {
   display: flex;
   gap: 1.5rem;
 }
+.info_content p{
+  margin-right: 0.7rem;
+}
 .info img {
   height: 15rem;
 }
