@@ -85,7 +85,7 @@ main {
   display: flex;
   gap: 1.5rem;
 }
-.info_content p{
+.info_content p {
   margin-right: 0.7rem;
 }
 .info img {
@@ -110,7 +110,7 @@ main {
 .footer-div a {
   color: #000;
 }
-.footer-div a img{
+.footer-div a img {
   height: 30px;
 }
 footer {
